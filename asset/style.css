@@ -31,6 +31,7 @@ nav ul li .active {
   justify-content: center;
 }
 .cover {
+  margin-top: 3vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,9 +60,6 @@ nav ul li .active {
 .superiority div {
   padding: 5vw;
   font-family: helvetica;
-}
-.superiority div ul {
-  margin-top: -1rem;
 }
 .superiority div ul li {
   list-style: none;
@@ -304,6 +302,9 @@ nav ul li .active {
   }
   .superiority {
     display: block;
+  }
+  .superiority div {
+    padding: 0;
   }
   .superiority .image img {
     width: 50vw !important;
