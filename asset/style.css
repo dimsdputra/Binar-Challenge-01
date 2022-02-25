@@ -58,7 +58,7 @@ nav ul li .active {
   margin: 5vw;
 }
 .superiority div {
-  padding: 5vw;
+  padding: 0 5vw 5vw 5vw;
   font-family: helvetica;
 }
 .superiority div ul li {
@@ -84,7 +84,6 @@ nav ul li .active {
 }
 .card-body img {
   margin: 1vw 0 1vw 0;
-  width: 2vw;
 }
 /* ========End Services======== */
 
@@ -287,10 +286,30 @@ nav ul li .active {
   .col-sm-3 {
     width: 50% !important;
   }
+  .faq .accordion {
+    width: 80% !important;
+  }
 }
 @media screen and (max-width: 768px) {
   .testi img {
     width: 10vw !important;
+  }
+  .superiority {
+    display: block;
+  }
+  .superiority .image {
+    justify-content: center;
+    display: flex;
+    margin-left: -8vw;
+  }
+  .superiority .image img {
+    width: 40vw !important;
+  }
+  .faq {
+    display: block;
+  }
+  .faq .accordion {
+    width: 100% !important;
   }
 }
 @media screen and (max-width: 576px) {
@@ -307,6 +326,7 @@ nav ul li .active {
     padding: 0;
   }
   .superiority .image img {
+    margin-bottom: 5vw;
     width: 50vw !important;
   }
   .superiority .image {
